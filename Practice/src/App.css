@@ -1,0 +1,105 @@
+/* .btn {
+  background-color: blueviolet;
+  color: white;
+  margin: auto;
+  margin-top: 2rem;
+  outline: none;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+} */
+
+.h1Style {
+  background-color: burlywood;
+  color: white;
+  min-width: 20rem;
+  width: 30rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0rem 2rem 2rem -1.5rem rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.innerBtn {
+  color: red;
+  font-size: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  float: right;
+  flex: auto;
+  margin-top: 1vh;
+  margin-right: 3vh;
+}
+
+/* .email input {
+  min-width: 20rem;
+  width: 30rem;
+  padding: 20px;
+  margin-top: 2rem;
+  border: 5px;
+  align-items: center;
+  border: none;
+  display: flex;
+}
+
+.password input {
+  min-width: 20rem;
+  width: 30rem;
+  padding: 20px;
+  margin-top: 2rem;
+  border: 5px;
+  align-items: center;
+  display: flex;
+} */
+
+/* .email {
+  font-size: x-large;
+}
+
+.password {
+  font-size: x-large;
+} */
+
+form {
+  padding-top: 6%;
+}
+
+/* Full-width inputs */
+input[type="password"],
+input[type="password"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
